@@ -1,0 +1,85 @@
+.card {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.853);
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-upper-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-container {
+  height: 40px;
+  aspect-ratio: 1;
+  position: relative;
+}
+
+.profile-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.profile-status {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: gray;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  border: solid 2px white;
+}
+
+.card-middle-container {
+  display: flex;
+  gap: 6px;
+}
+
+.task {
+  font-size: 12px;
+  margin: 0;
+}
+
+.card-lower-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.feature-request-status-card {
+  padding: 4px 6px;
+  border: solid 1px gray;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-request {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  border-radius: 4px;
+  gap: 10px;
+  border:solid 0.2px #808080a3;
+}
+
+.feature-request-symbol {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #dcdcdc96;
+}
